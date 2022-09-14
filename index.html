@@ -11,15 +11,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
 
+        <script type="text/javascript" src="app.js"></script>
         <link rel="stylesheet" href="./style.css">
+
     </head>
     <body>
-            <h1>SSS</h1>
-            <p>Random</p>
-
-
         <header>
-            <div>
+            <div class="perfil">
                 <img src="https://github.com/TicianoRocha.png" alt="Um anjo"/>
             </div>
         </header>
@@ -117,6 +115,14 @@
                              </a>
                         </li>
                     </ul>
+
+                    <form name="formulario">
+                        <label for="email">Email</label>
+                        <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+
+                        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+                    </form>
+
                 </div>
             </section>
         </main>
